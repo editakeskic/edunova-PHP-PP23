@@ -143,3 +143,5 @@ select * from orderdetails where priceEach>100 and priceEach<200;
 
 
 # baza sakila  -------
+# naći sve glumce iz sa imenom koje počinje na E
+select * from actor where first_name like 'E%';
