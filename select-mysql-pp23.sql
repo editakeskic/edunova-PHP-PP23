@@ -129,3 +129,6 @@ select * from city where countrycode='KOS';
 # baza mysqlsampledatabase
 # naći narudžbe koje su otkazane
 select * from orders where status='cancelled';
+
+# naći narudžbe koje su skuplje od 100$
+select * from orderdetails where priceEach>100;
