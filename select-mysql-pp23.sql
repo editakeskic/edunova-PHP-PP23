@@ -106,12 +106,12 @@ select * from izdavac where naziv like '%d.o.o%' or naziv like '%do.o%' or naziv
 # odaberimo za preporuku knjige osobi koja je prekinula i želi neke savjete o ljubavi
 select * from katalog where naslov like '%ljubav%' and sifra not in (2541,2680,2879,2938);
 
+
 # baza world  -------
 # u državi Kosovo unijeti mjesto Priština donja
 select * from country;
 insert into country(Code,Name,Continent,Region,SurfaceArea,Population,LocalName,GovernmentForm,Code2) values
 ('KOS','Kosovo','Europe','Southern Europe',10887,1873,'Kosovo','Republic','KO');
-
 
 select * from country where code='KOS';
 insert into city(name,countrycode,district,population) values
@@ -125,3 +125,7 @@ where countrycode='KOS';
 
 select * from city where countrycode='KOS'; 
 
+
+# baza mysqlsampledatabase
+# naći narudžbe koje su otkazane
+select * from orders where status='cancelled';
