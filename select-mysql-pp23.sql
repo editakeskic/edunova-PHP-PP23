@@ -150,3 +150,7 @@ select * from actor where first_name like 'E%';
 
 # unijeti svoje ime umjesto imena glumice Emily Dee
 update actor set first_name='EDITA' where actor_id=148;
+
+# pronaći komedije
+select * from category;
+select * from film_category where category_id=5; 
