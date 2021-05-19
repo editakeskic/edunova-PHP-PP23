@@ -1,3 +1,4 @@
+# SA PREDAVANJA O SELEKTIRANJU
 select * from smjer;
 
 # select na jednu tablicu
@@ -71,7 +72,8 @@ select * from osoba where ime not like '%a';
 
 select * from osoba where ime like '%a%e%';
 
-# baza mjesta ------- 
+# VJEZBA PO BAZAMA
+# baza mjesta  ---------------------------------------------------- 
 # odaberite sva mjesta u Osječko-baranjskoj županiji
 # 1. način
 select * from mjesto where postanskibroj like '31%';
@@ -83,7 +85,7 @@ select * from mjesto where zupanija=14;
 select * from mjesto where naziv not like '%a';
 
 
-# baza knjižnica ------- 
+# baza knjižnica  ---------------------------------------------------- 
 #svi autori kojima ne znamo datum rođenja
 select * from autor where datumrodenja is null;
 
@@ -107,7 +109,7 @@ select * from izdavac where naziv like '%d.o.o%' or naziv like '%do.o%' or naziv
 select * from katalog where naslov like '%ljubav%' and sifra not in (2541,2680,2879,2938);
 
 
-# baza world  -------
+# baza world  ----------------------------------------------------
 # u državi Kosovo unijeti mjesto Priština donja
 select * from country;
 insert into country(Code,Name,Continent,Region,SurfaceArea,Population,LocalName,GovernmentForm,Code2) values
@@ -126,7 +128,7 @@ where countrycode='KOS';
 select * from city where countrycode='KOS'; 
 
 
-# baza mysqlsampledatabase  -------
+# baza mysqlsampledatabase  ----------------------------------------------------
 # naći narudžbe koje su otkazane
 select * from orders where status='cancelled';
 
@@ -142,7 +144,7 @@ insert into employees(employeeNumber,lastName,firstName,extension,email,officeCo
 select * from employees;
 
 
-# baza sakila  -------
+# baza sakila  ----------------------------------------------------
 # naći sve glumce iz sa imenom koje počinje na E
 select * from actor where first_name like 'E%';
 
