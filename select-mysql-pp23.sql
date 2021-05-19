@@ -133,15 +133,18 @@ select * from orders where status='cancelled';
 # naći narudžbe koje su skuplje od 100$
 select * from orderdetails where priceEach>100;
 
+# narudžbe između 100$ i 200$
+select * from orderdetails where priceEach>100 and priceEach<200;
+
 # unijeti sebe kao novog zaposlenika
 insert into employees(employeeNumber,lastName,firstName,extension,email,officeCode,jobTitle) values
 ('1888','Edita','Keskic','x888','edita.keskic@gmail.com','3','Developer');
 select * from employees;
 
-# narudžbe između 100$ i 200$
-select * from orderdetails where priceEach>100 and priceEach<200;
-
 
 # baza sakila  -------
 # naći sve glumce iz sa imenom koje počinje na E
 select * from actor where first_name like 'E%';
+
+# unijeti svoje ime umjesto imena glumice Emily Dee
+update actor set first_name='EDITA' where actor_id=148;
