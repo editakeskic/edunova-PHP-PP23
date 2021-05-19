@@ -126,9 +126,12 @@ where countrycode='KOS';
 select * from city where countrycode='KOS'; 
 
 
-# baza mysqlsampledatabase
+# baza mysqlsampledatabase  -------
 # naći narudžbe koje su otkazane
 select * from orders where status='cancelled';
 
 # naći narudžbe koje su skuplje od 100$
 select * from orderdetails where priceEach>100;
+
+# narudžbe između 100$ i 200$
+select * from orderdetails where priceEach>100 and priceEach<200;
