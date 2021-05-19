@@ -140,3 +140,6 @@ select * from employees;
 
 # narudžbe između 100$ i 200$
 select * from orderdetails where priceEach>100 and priceEach<200;
+
+
+# baza sakila  -------
