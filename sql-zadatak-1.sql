@@ -218,14 +218,12 @@ inner join svekar f on e.svekar=f.sifra
 where c.hlace like 'a%' or d.haljina like '%ba%'
 order by b.hlace desc;
 # ? ------ ne znam zašto ne prikazuje ništa u rezultatima iako bi trebalo
-		#  s obzirom na unesene podatke
+#  s obzirom na unesene podatke
  
 
 
 # 6. Prikažite kolone haljina i maraka iz tablice sestra čiji se primarni 
 # ključ ne nalaze u tablici sestra_svekar. (5)
-
-# ? ----------- NE ZNAM RAZUMIJEM LI ZADATAK
 
 select a.haljina, a.maraka
 from sestra a 
@@ -234,7 +232,6 @@ where a.sifra is null;
 
 
 # utrošeno vrijeme = 2 sata
-
 
 
 
