@@ -215,7 +215,7 @@ inner join zena c on b.zena=c.sifra
 inner join sestra d on c.sestra=d.sifra
 inner join sestra_svekar e on d.sifra=e.sestra 
 inner join svekar f on e.svekar=f.sifra 
-where c.hlace like 'a%' or d.haljina like '%ba%'
+where c.hlace like 'a%' and d.haljina like '%ba%'
 order by b.hlace desc;
 # ? ------ ne znam zašto ne prikazuje ništa u rezultatima iako bi trebalo
 #  s obzirom na unesene podatke
