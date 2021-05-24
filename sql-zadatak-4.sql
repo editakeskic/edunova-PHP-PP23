@@ -186,7 +186,7 @@ inner join zena z on zm.zena=z.sifra
 inner join snasa s on z.sifra=s.zena 
 inner join becar b on s.sifra=b.snasa 
 inner join prijatelj p on b.sifra=p.becar 
-where s.treciputa='not null' and z.lipa not like 29
+where s.treciputa is not null and z.lipa not like 29
 order by b.kratkamajica desc;
 
 
