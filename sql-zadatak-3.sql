@@ -1,4 +1,4 @@
-# ZADATAK 
+# ZADATAK 3
 
 # 0. Kreirajte tablice (16) i veze između tablica. (6)
 
