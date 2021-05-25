@@ -83,7 +83,23 @@ select '', firstName, 'Osijek'  from employees;
 
 
 # odaberite sve proizvode koje je prodao martin
+#----------------------------------------------
+select e.firstName, a.*
+from products a
+inner join orderdetails b on a.productCode=b.productCode
+inner join orders c on b.orderNumber=c.orderNumber
+inner join customers d on c.customerNumber=d.customerNumber
+inner join employees e on d.salesRepEmployeeNumber=e.employeeNumber
+where e.firstName like 'Martin';
 
+select a. productName, e.firstName
+from products a
+inner join orderdetails b on a.productCode=b.productCode
+inner join orders c on b.orderNumber=c.orderNumber
+inner join customers d on c.customerNumber=d.customerNumber
+inner join employees e on d.salesRepEmployeeNumber=e.employeeNumber
+where e.firstName like 'Martin';
+# riješeno --------------------------------
 
 
 # Odaberite sve podređene zaposlenike od Patterson Mary
