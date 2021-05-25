@@ -103,7 +103,10 @@ where e.firstName like 'Martin';
 
 
 # Odaberite sve podređene zaposlenike od Patterson Mary
-
+#----------------------------------------------
+select *
+from employees where reportsTo=1056;
+# riješeno --------------------------------
 
 
 # odaberite sve proizvode koji nisu niti na jednoj narudžbi
