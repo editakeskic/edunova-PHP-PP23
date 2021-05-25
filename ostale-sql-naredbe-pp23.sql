@@ -119,7 +119,10 @@ select * from products where productCode not in
 (select distinct productCode from orderdetails);
 
 # Obrišite 1985 Toyota Supra
-
+#----------------------------------------------
+select count(*) from products where productName='1985 Toyota Supra';
+delete from products where productName='1985 Toyota Supra';
+# riješeno --------------------------------
 
 
 # obrisati sve proizvode koji nisu niti na jednoj narudžbi
