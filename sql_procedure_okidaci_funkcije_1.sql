@@ -3,6 +3,7 @@
 # sql_procedure_okidaci_funkcije
 
 # 0. Kreirajte tablice (10) i veze između tablica. (3)
+
 # 1. Kreirati funkciju zadatak1 koja osigurava kako cjelobrojni 
 # tipovi podataka moraju biti između 980 i 5098 
 # (7). Primjeniti funkciju u minimalno jednom upitu u proceduri ili okidaču (7). 
