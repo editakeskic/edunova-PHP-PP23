@@ -13,24 +13,47 @@
       <div class="grid-x grid-padding-x">
         <div class="large-8 cell" >
         <h1>Varijable</h1>
-          <pre>
-         KASNIJE
-          </pre>
+<pre>
+// varijabla je prostor u memoriji
+// varijabla nema eksplicitno navedeni tip podatka kao što je bilo u MariaDB
+$varijabla=7; // varijabla je prostor u memoriji
+          // varijabla nema eksplicitno navedeni tip podatka kao što je bilo u MariaDB
+          $varijabla=7;
+          echo gettype($varijabla), '&lt;br /&gt;';
+
+          $varijabla='7';
+          echo gettype($varijabla), '&lt;br /&gt;';
+
+          $varijabla="7";
+          echo gettype($varijabla), '&lt;br /&gt;';
+          
+          $varijabla=7.7;
+          echo gettype($varijabla), '&lt;br /&gt;';
+
+          $varijabla=true;
+          echo gettype($varijabla), '&lt;br /&gt;';
+
+          $varijabla=[];
+          echo gettype($varijabla), '&lt;br /&gt;';
+
+          $varijabla=new stdClass();
+          echo gettype($varijabla), '&lt;br /&gt;';
+</pre>
         </div>
         <div class="large-4 cell">
           <?php 
 
           // varijabla je prostor u memoriji
-          // varijabla nema eksplicitno navedeni tip podatka kao što je bio u MariaDB
+          // varijabla nema eksplicitno navedeni tip podatka kao što je bilo u MariaDB
           $varijabla=7;
           echo gettype($varijabla), '<br />';
-          
+
           $varijabla='7';
           echo gettype($varijabla), '<br />';
 
           $varijabla="7";
           echo gettype($varijabla), '<br />';
-
+          
           $varijabla=7.7;
           echo gettype($varijabla), '<br />';
 
@@ -42,7 +65,6 @@
 
           $varijabla=new stdClass();
           echo gettype($varijabla), '<br />';
-
 
           ?>
         </div>
