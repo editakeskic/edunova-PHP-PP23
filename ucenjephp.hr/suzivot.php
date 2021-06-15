@@ -13,17 +13,21 @@
       <div class="grid-x grid-padding-x">
         <div class="large-8 cell" >
         <h1>Suživot PHP i HTML</h1>
-          <pre <?php echo '>'; ?> <!-- Loša praksa -->
+          <pre<?php echo '>'; ?> <!-- Loša praksa -->
          KASNIJE
           </pre>
         </div>
         <!-- Loša praksa -->
-        <div class="large-4 cell<?php echo '"' ?> 
-        style="color: <?php echo 'blue'; ?> "> <!-- Dobra praksa -->
+        <div class="large-4 cell<?php echo '"'; ?> 
+
+        
+        style="color: <?php echo 'blue'; ?>"> <!-- Dobra praksa -->
           <?php 
-          //PHP generira HTML
-          //primjer loše prakse
+          
+          // PHP generira HTML
+          // primjer dobre prakse
           echo '<hr />';
+          
           ?>
         </div>
       </div>
