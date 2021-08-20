@@ -21,7 +21,7 @@ Obavezni dio:
 
 - [ ] Postaviti na github kod
 
-- [ ] U readme.md napisati koje su točke realizirane
+- [x] U readme.md napisati koje su točke realizirane
 
 - [ ] Na javnom dijelu aplikacije postaviti link na github kod
 
