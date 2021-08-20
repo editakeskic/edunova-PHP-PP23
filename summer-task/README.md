@@ -1,6 +1,7 @@
 # edunova-PHP-PP23 summer task
 Project related to my php app development
 
+_________________________________________________
 
 Obavezni dio:
 
@@ -26,8 +27,8 @@ Obavezni dio:
 
 - [ ] Na privatnom dijelu aplikacije staviti link na ERA dijagram
 
+ _________________________________________________
  
-
 Napredni dio:
 
 - [ ] Aplikacija ima metapodatke prema http://ogp.me/
