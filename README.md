@@ -1,10 +1,8 @@
-# edunova-PHP-PP23
-Projects related to my education in PHP programming - Edunova
+# edunova-PHP-PP23 summer task
+Project related to my php app development
 
 
 Obavezni dio:
-
-
 
 - [ ] Za razvoj aplikacije se koristi Foundation RWD framework
 
