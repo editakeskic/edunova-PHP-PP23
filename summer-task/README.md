@@ -7,11 +7,11 @@ Obavezni dio:
 
 - [ ] Za razvoj aplikacije se koristi Foundation RWD framework
 
-- [ ] Aplikacija mora imati javni i privatni dio
+- [x] Aplikacija mora imati javni i privatni dio
 
 - [ ] Aplikacija mora biti prilagodljiva minimalno dvoje različitim širinama zalona (RWD) - sadržaj mora biti čitljiv, vidljiv, dobro organiziran za obje širine zaslona
 
-- [ ] Autorizacija se izvršava na osnovu podataka u php datoteci
+- [x] Autorizacija se izvršava na osnovu podataka u php datoteci
 
 - [ ] Na stranici autorizacije postaviti minimalno 2 korisnika i lozinke za spajanje
 
@@ -19,7 +19,7 @@ Obavezni dio:
 
 - [ ] Postaviti na hosting aplikaciju
 
-- [ ] Postaviti na github kod
+- [x] Postaviti na github kod
 
 - [x] U readme.md napisati koje su točke realizirane
 
