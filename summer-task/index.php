@@ -7,7 +7,7 @@
     <title>yogastudio.xyz</title>
 </head>
 <body>
-    <form action="authorization.php" method="post">
+    <form action="authentication.php" method="post">
     
     <label for="email">Email</label>
     <input type="text" name="email" id="email">

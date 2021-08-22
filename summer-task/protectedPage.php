@@ -2,7 +2,7 @@
 
 session_start();
 
-if(!isset($_SESSION['authorized'])){
+if(!isset($_SESSION['authentication'])){
     header('location: index.php');
     exit;
 }
@@ -16,6 +16,6 @@ if(!isset($_SESSION['authorized'])){
     <title>Document</title>
 </head>
 <body>
-    Welcome <?php echo $_SESSION['authorized'] ?> <a href="logout.php">Log me out</a>
+    Welcome <?php echo $_SESSION['authenticized'] ?> <a href="logout.php">Log me out</a>
 </body>
 </html>
