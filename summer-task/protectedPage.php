@@ -2,7 +2,7 @@
 
 session_start();
 
-if(!isset($_SESSION['authentication'])){
+if(!isset($_SESSION['authenticized'])){
     header('location: index.php');
     exit;
 }
